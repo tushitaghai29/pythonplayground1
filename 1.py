@@ -11,3 +11,8 @@ for i in range(5):
     arr.append(j)
 
 avg(arr)
+
+
+def v1_avg(series):
+    print("Average: ", sum(series)/len(series))
+    return series
